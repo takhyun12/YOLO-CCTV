@@ -2,16 +2,13 @@ This project is deprecated. Please see [yolo2-pytorch](https://github.com/ruimin
 
 # TensorFlow implementation of the [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf) and [YOLOv2](https://arxiv.org/pdf/1612.08242.pdf)
 
-## Dependencies
-
-
+![yolo](https://user-images.githubusercontent.com/41291493/108940132-2d2c9300-7696-11eb-978c-c77933a83ae8.jpg)
 
 ## Configuration
 
 Configurations are mainly defined in the "config.ini" file. Such as the detection model (config/model), base directory (config/basedir, which identifies the cache files (.tfrecord), the model data files (.ckpt), and summary data for TensorBoard), and the inference function ([model]/inference). *Notability the configurations can be extended using the "-c" command-line argument*.
 
 ## Basic Usage
-
 
 - Run "cache.py" to create the cache file for the training program. **A verify command-line argument "-v" is strongly recommended to check the training data and drop the corrupted examples**, such as the image "COCO_val2014_000000320612.jpg" in the COCO dataset.
 
