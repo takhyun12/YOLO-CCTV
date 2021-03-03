@@ -1,6 +1,4 @@
-This project is deprecated. Please see [yolo2-pytorch](https://github.com/ruiminshen/yolo2-pytorch)
-
-# TensorFlow implementation of the [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf) and [YOLOv2](https://arxiv.org/pdf/1612.08242.pdf)
+# YOLO-based CCTV Monitoring System
 
 ![yolo](https://user-images.githubusercontent.com/41291493/108940132-2d2c9300-7696-11eb-978c-c77933a83ae8.jpg)
 
